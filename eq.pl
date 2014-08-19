@@ -1,7 +1,13 @@
+
 #!/usr/bin/perl
 
 #criem um scriptzinho que receba três inputs a, b e c, e resolva a equação ax2 + bx + c = 0, escrevendo o resultado num arquivo ou levantando um erro via "die" se der algum pau.
 
+use strict; 
+
+my $a;
+my $b;
+my $c;
 
 print "Digite o Input A?";
 $a = <STDIN>;
